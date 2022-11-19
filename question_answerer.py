@@ -22,3 +22,4 @@ question = "When was Vladimir Putin born?"
 
 # Используем пайплайн в переменной question_answerer для ответа на вопрос.
 print(question_answerer(question=question, context=context))
+question2 = "Where was Vladimit Putin born"
