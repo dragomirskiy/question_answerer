@@ -17,9 +17,12 @@ Although he was virtually unknown, Putin’s public-approval ratings soared when
 
 """
 
-# Вопрос.
-question = "When was Vladimir Putin born?"
+# Вопросы.
+question1 = "When was Vladimir Putin born?"
+question2 = "Where was Vladimir Putin born?"
 
-# Используем пайплайн в переменной question_answerer для ответа на вопрос.
-print(question_answerer(question=question, context=context))
-question2 = "Where was Vladimit Putin born"
+# Используем пайплайн в переменной question_answerer для ответа на Вопрос 1.
+print(question_answerer(question=question1, context=context))
+
+# Используем пайплайн в переменной question_answerer для ответа на Вопрос 2.
+print(question_answerer(question=question2, context=context))
